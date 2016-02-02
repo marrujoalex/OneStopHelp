@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="../css/samplestyle.css">
+  <style>
+  	.bigs {
+  		color: #333333;
+  		margin-left: 10px;
+  	}
+  	.correct {
+  		text-align: left;
+  		color: #222222;
+  		margin-left: 10px;
+  	}
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="data.html">Donations</a></li>
+  <li><a href="events.html">Events</a></li>
+  <li><a href="contact.php">Contact</a></li>
+</ul>
+
+<h1>One-Stop Help</h1>
+
+<div class="container"></div>
+
+<h2>Welcome to our page!</h2>
+
+<p class="one">We are a self-driven company thriving on success stories from around the world. We work with many non-profit organizations and understand what it's like to help people everywhere! Recently we acquired some donations from some very kind people. They're found accordingly here at the <a href="data.html">donations</a> page.</p>
+<p class="one">Some of our company activities and pictures can be seen here: <a href="events.html">Events and Excursions</a><br></p>
+<p class="two">Want to find out more? We're always looking for more talented and motivated individuals to join us! Join our <a href="contact.php">Contact</a> page and let us know what you think!</p>
+<!-- <p id="bigs"></p> 
+<p id="wrong"></p>
+<p id="correct"></p> This actually works, but it's unnecessary-->
+
+<p>
+<img style="text-align:center;" height='250' width='700' src="trip_plan.jpg" alt="Happy Photo">
+</p>
+
+<script type="text/javascript">
+  // Some Array of companies, and showing how to concatenate
+	var organization = ["Microsoft", "Google", "Apple"];
+	document.getElementById("bigs").innerHTML = organization[0] + " " + organization[1] + " is triumphing " + organization[2] + " in non-profit work lately.";
+  // Random function to showcase if/else logic, and understanding of how to create functions
+	function someFunction() {
+		var idea_one = 2; 
+		var idea_two = 4;
+		if (idea_two < idea_one) {
+			console.log("Something is wrong");
+		}
+		else { console.log("The current time is: " + Date()); }
+	}
+</script>
+<footer>
+<div id="footer"><script type="text/javascript">var d = new Date(); document.getElementById("footer").innerHTML = "&copy; MarrujoX Pages " + "Copyright 2006-" + d.getFullYear();</script>
+</footer>
+</body>
+</html>

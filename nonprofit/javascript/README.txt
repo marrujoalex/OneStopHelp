@@ -1,0 +1,1 @@
+Javascript included in html/php files
